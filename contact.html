@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width,initial-scale=1.0">
+     <title>College Website Design-Bhagyashree</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/aos.css">
+
+</head>
+<body>
+    <section class="sub-header">
+          <nav>
+            <a href="index.html"><img src="images/mainlogo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="subjects.html">SUBJECTS</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+              
+              </div> 
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>Contact Us</h1>
+    </section>
+    
+    <!----------contact us --------->
+    
+    <section class="location">
+        
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31155.074423387978!2d75.3716231316755!3d12.556892212136122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ad1e4dcabccf56b!2sShri%20Sharada%20Women&#39;s%20College!5e0!3m2!1sen!2sin!4v1632393122774!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+    </section>
+    <section class="contact-us">
+        <div class="row">
+           <div class="contact-col">
+               <div>
+                 <i class="fa fa-home"></i> 
+                   <span>
+                   <h5>Near Lal Bahadhur Shasthri Circle</h5>
+                       <p>Sullia,Karnataka,In Pincode: 574239</p>
+                   </span>
+               </div>
+                <div>
+                 <i class="fa fa-phone"></i> 
+                   <span>
+                   <h5>08257-230285,9481847955</h5>
+                       <p>Monday To Saturday,9AM to 5PM</p>
+                   </span>
+               </div>
+                <div>
+                 <i class="fa fa-envelope-o"></i> 
+                   <span>
+                   <h5>sharadahs@gmail.com</h5>
+                       <p>Email us your query</p>
+                   </span>
+               </div> 
+            </div>
+        <div class="contact-col"></div>
+        <form class="contact-form">
+            <form action="file-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+             <input type="email" name="email" placeholder="Enter Email Address" required>
+                 <input type="text" name="subject" placeholder="Enter the subject" required>
+            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            
+            </form>
+            </form>
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        
+    </section>
+    
+    
+    
+    
+    
+    
+   <!---------Footer----------->
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Shree Sharada Girls' Highschool is supporting all the girls of rural areas & affording them a quality education in Sullia.<br>We also have a well experienced teaching and non-teaching staff.Feel free to ask us any doubts.</p>
+    <div class="icons">
+        <i class="fa fa-facebook fa-2x"></i>
+        <i class="fa fa-twitter fa-2x"></i>
+        <i class="fa fa-instagram fa-2x"></i>
+        <i class="fa fa-linkedin fa-2x"></i>
+       
+        </div>
+    <p><b>Copyright<i class="fa fa-copyright"></i> Bhagyashree N M, Find me </b><b>@    </b> <i class="fa fa-whatsapp fa-2x"></i><b> 
+          7975773878</b></p>
+    
+    </section>
+    
+    
+    
+    
+    
+    
+    <!-----Javascript for Toggle Menu---->
+    <script>
+        
+       var nacLinks=document.getElementById("navLinks");
+        
+        
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    
+    
+    </script>
+  
+
+
+
+</body>
+</html>
+
